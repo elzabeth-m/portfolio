@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chef Portfolio</title>
+    <script src="form-success.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <div class="navbar">
+        <img class="plogo" src="./assets/images/meowo.png" alt="Chef Logo" />
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <section id="home">
+      <div class="hero">
+        <!-- Introduction Section -->
+        <div class="intro">
+          <h1 class="hello">Welcome<span class="dot">.</span></h1>
+          <span class="typing-demo"
+            >I'm Chef <span class="name">Meow</span></span
+          >
+          <h1 class="job">Culinary Artist & Food Consultant</h1>
+          <p class="welcome">
+            With over a decade of experience crafting exquisite dishes and
+            creating unforgettable dining experiences, I specialize in
+            contemporary cuisine with a passion for seasonal ingredients and
+            international flavors.
+            <span class="br1"
+              >Let’s bring your next event or menu to life with elegance and
+              taste.</span
+            >
+          </p>
+          <button class="hire" type="button">Book a Consultation</button>
+        </div>
+
+        <!-- Profile Picture -->
+        <div class="bottom-right-container">
+          <div class="circle-wrapper">
+            <div class="circle-border"></div>
+            <div class="circle-fade-border"></div>
+          </div>
+          <img
+            class="profilepic"
+            src="./assets/images/profile.png"
+            alt="Chef Profile Picture"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <div class="about-image-container">
+          <div class="circle-wrapper-about">
+            <div class="circle-border-about"></div>
+            <div class="circle-fade-border-about"></div>
+          </div>
+
+          <img
+            class="about-image"
+            src="assets/images/set1.png"
+            alt="Chef at work"
+          />
+        </div>
+        <div class="about-text">
+          <h2>About <span class="highlight">Chef Meow</span></h2>
+          <h3>Passionate. Experienced. Inspired.</h3>
+          <p>
+            I am a professional chef committed to delivering gourmet experiences
+            that blend innovation with tradition. From Michelin-inspired tasting
+            menus to private dining events, I bring creativity, skill, and heart
+            to every plate. Let's collaborate to make your culinary vision a
+            reality—whether it’s a private dinner, restaurant consulting, or a
+            pop-up concept.
+          </p>
+          <a href="#contact" class="btn">Let's Connect</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form method="post" action="contact_submit.php">
+          <div class="input-box">
+            <input
+              type="text"
+              name="fullname"
+              placeholder="Full Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <input type="tel" name="phone" placeholder="Mobile Number" />
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="6"
+            required
+          ></textarea>
+          <button type="submit" class="btn-foot">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <a href="https://facebook.com" target="_blank"
+        ><img class="icon" src="assets/images/f.png" alt="Facebook"
+      /></a>
+      <a href="https://github.com" target="_blank"
+        ><img class="icon" src="assets/images/g.png" alt="GitHub"
+      /></a>
+      <a href="https://linkedin.com" target="_blank"
+        ><img class="icon" src="assets/images/linkedin.png" alt="LinkedIn"
+      /></a>
+      <p>&copy; 2025 Chef Meow. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
