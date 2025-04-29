@@ -6,7 +6,12 @@
     margin: 0;
     padding: 0;
 }
-
+#home{
+  display: flex;
+  min-height: 100vh;
+  padding-top:100px;
+  align-items: center;
+}
 body {
     background-color: #f9f9f9;
     line-height: 1.6;
@@ -56,13 +61,15 @@ body {
 .hero {
    display: flex;
    flex-wrap: wrap;
-   align-items: center;
+   align-items: flex-end;
    justify-content: space-between;
    max-width: 1200px;
-   margin: auto;
+  flex:1;
+
   padding: 100px 20px;
    position: relative;
    gap: 40px;
+   bottom: 0px;
   }
 
 /* Intro Section */
@@ -145,7 +152,8 @@ html{
    z-index: 1;
    height: auto;
    padding-top: 90px;
-   
+   margin-bottom: 0px;
+   align-self: flex-end;
   }
   
 
@@ -567,28 +575,4 @@ footer {
     width: 50%;
     margin-bottom: 10px;
   }
-}
-
-/*special case*/
-@media(min-width: 1070px) and (max-width:1094px){
-  .hero{
-    padding: 80px 10px;
-  }
-}
-@media(min-width: 1094px) and (max-width:1113px){
-  .hero{
-    padding: 92px 10px;
-  }
-}
-@media(min-width: 1167px) and (max-width:1187px){
-  .hero{
-    padding: 99px 10px;
-  }
-
-}
-@media(min-width: 1113px) and (max-width: 1167px){
-  .hero{
-    padding: 92px 10px;
-  }
-
 }
