@@ -329,7 +329,7 @@ footer {
   position: relative;
   z-index: 1;
  height: auto;
-  padding-top: 90px;
+  padding-top: 40px;
 }
 .about-section {
   background-color: #0a2b44;
@@ -485,7 +485,7 @@ footer {
   .about-image-container {
     order: 1;
     display: flex;
-    margin-top: 100px;
+    margin-top: 20px;
     width: 100%;
     justify-content: center;
     align-items: center;
